@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		3405F3631D16928600AF29EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405F3621D16928600AF29EC /* AppDelegate.swift */; };
-		3405F3651D16928600AF29EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405F3641D16928600AF29EC /* ViewController.swift */; };
-		3405F3681D16928600AF29EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3405F3661D16928600AF29EC /* Main.storyboard */; };
 		3405F36A1D16928600AF29EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3405F3691D16928600AF29EC /* Assets.xcassets */; };
 		3405F36D1D16928600AF29EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3405F36B1D16928600AF29EC /* LaunchScreen.storyboard */; };
+		3405F37D1D16933200AF29EC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405F37B1D16933200AF29EC /* Home.swift */; };
+		3405F37E1D16933200AF29EC /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3405F37C1D16933200AF29EC /* Home.xib */; };
+		3405F3811D16934500AF29EC /* FlickrFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405F37F1D16934500AF29EC /* FlickrFeed.swift */; };
+		3405F3821D16934500AF29EC /* FlickrFeed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3405F3801D16934500AF29EC /* FlickrFeed.xib */; };
+		3405F3841D1696A600AF29EC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405F3831D1696A600AF29EC /* NetworkClient.swift */; };
+		3405F3871D169E0B00AF29EC /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405F3851D169E0B00AF29EC /* PhotoCell.swift */; };
+		3405F3881D169E0B00AF29EC /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3405F3861D169E0B00AF29EC /* PhotoCell.xib */; };
+		341F94991D19784C0030362A /* SimpleCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341F94971D19784C0030362A /* SimpleCalls.swift */; };
+		341F949A1D19784C0030362A /* SimpleCalls.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341F94981D19784C0030362A /* SimpleCalls.xib */; };
+		34921E521D18301E00C46902 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34921E511D18301E00C46902 /* Photo.swift */; };
+		34A3B6261D1AA6C100523F14 /* DownloadProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A3B6241D1AA6C100523F14 /* DownloadProgress.swift */; };
+		34A3B6271D1AA6C100523F14 /* DownloadProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A3B6251D1AA6C100523F14 /* DownloadProgress.xib */; };
+		34A3B6291D1AA85E00523F14 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A3B6281D1AA85E00523F14 /* NetworkService.swift */; };
+		34A3B62B1D1AD42000523F14 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A3B62A1D1AD42000523F14 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3405F35F1D16928600AF29EC /* NetworkingSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3405F3621D16928600AF29EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3405F3641D16928600AF29EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3405F3671D16928600AF29EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3405F3691D16928600AF29EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3405F3621D16928600AF29EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		3405F3691D16928600AF29EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		3405F36C1D16928600AF29EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3405F36E1D16928600AF29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3405F36E1D16928600AF29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		3405F37B1D16933200AF29EC /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3405F37C1D16933200AF29EC /* Home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		3405F37F1D16934500AF29EC /* FlickrFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrFeed.swift; sourceTree = "<group>"; };
+		3405F3801D16934500AF29EC /* FlickrFeed.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickrFeed.xib; sourceTree = "<group>"; };
+		3405F3831D1696A600AF29EC /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		3405F3851D169E0B00AF29EC /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		3405F3861D169E0B00AF29EC /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		341F94971D19784C0030362A /* SimpleCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCalls.swift; sourceTree = "<group>"; };
+		341F94981D19784C0030362A /* SimpleCalls.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCalls.xib; sourceTree = "<group>"; };
+		34921E511D18301E00C46902 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		34A3B6241D1AA6C100523F14 /* DownloadProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProgress.swift; sourceTree = "<group>"; };
+		34A3B6251D1AA6C100523F14 /* DownloadProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadProgress.xib; sourceTree = "<group>"; };
+		34A3B6281D1AA85E00523F14 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		34A3B62A1D1AD42000523F14 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,50 @@
 		3405F3611D16928600AF29EC /* NetworkingSwift */ = {
 			isa = PBXGroup;
 			children = (
-				3405F3621D16928600AF29EC /* AppDelegate.swift */,
-				3405F3641D16928600AF29EC /* ViewController.swift */,
-				3405F3661D16928600AF29EC /* Main.storyboard */,
-				3405F3691D16928600AF29EC /* Assets.xcassets */,
-				3405F36B1D16928600AF29EC /* LaunchScreen.storyboard */,
-				3405F36E1D16928600AF29EC /* Info.plist */,
+				3405F3741D1692B500AF29EC /* UI */,
+				3405F3751D1692BB00AF29EC /* Services */,
+				3405F3761D1692BF00AF29EC /* SupportingFiles */,
 			);
 			path = NetworkingSwift;
+			sourceTree = "<group>";
+		};
+		3405F3741D1692B500AF29EC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3405F37B1D16933200AF29EC /* Home.swift */,
+				3405F37C1D16933200AF29EC /* Home.xib */,
+				34A3B6241D1AA6C100523F14 /* DownloadProgress.swift */,
+				34A3B6251D1AA6C100523F14 /* DownloadProgress.xib */,
+				341F94971D19784C0030362A /* SimpleCalls.swift */,
+				341F94981D19784C0030362A /* SimpleCalls.xib */,
+				3405F3851D169E0B00AF29EC /* PhotoCell.swift */,
+				3405F3861D169E0B00AF29EC /* PhotoCell.xib */,
+				3405F37F1D16934500AF29EC /* FlickrFeed.swift */,
+				3405F3801D16934500AF29EC /* FlickrFeed.xib */,
+				3405F3691D16928600AF29EC /* Assets.xcassets */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3405F3751D1692BB00AF29EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				34A3B6281D1AA85E00523F14 /* NetworkService.swift */,
+				3405F3831D1696A600AF29EC /* NetworkClient.swift */,
+				34921E511D18301E00C46902 /* Photo.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3405F3761D1692BF00AF29EC /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3405F3621D16928600AF29EC /* AppDelegate.swift */,
+				3405F36B1D16928600AF29EC /* LaunchScreen.storyboard */,
+				3405F36E1D16928600AF29EC /* Info.plist */,
+				34A3B62A1D1AD42000523F14 /* Config.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +156,11 @@
 				TargetAttributes = {
 					3405F35E1D16928600AF29EC = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -122,9 +187,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A3B6271D1AA6C100523F14 /* DownloadProgress.xib in Resources */,
 				3405F36D1D16928600AF29EC /* LaunchScreen.storyboard in Resources */,
+				341F949A1D19784C0030362A /* SimpleCalls.xib in Resources */,
+				3405F37E1D16933200AF29EC /* Home.xib in Resources */,
+				3405F3821D16934500AF29EC /* FlickrFeed.xib in Resources */,
 				3405F36A1D16928600AF29EC /* Assets.xcassets in Resources */,
-				3405F3681D16928600AF29EC /* Main.storyboard in Resources */,
+				3405F3881D169E0B00AF29EC /* PhotoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +204,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3405F3651D16928600AF29EC /* ViewController.swift in Sources */,
+				34921E521D18301E00C46902 /* Photo.swift in Sources */,
+				3405F3811D16934500AF29EC /* FlickrFeed.swift in Sources */,
+				3405F3871D169E0B00AF29EC /* PhotoCell.swift in Sources */,
+				3405F37D1D16933200AF29EC /* Home.swift in Sources */,
+				34A3B6291D1AA85E00523F14 /* NetworkService.swift in Sources */,
 				3405F3631D16928600AF29EC /* AppDelegate.swift in Sources */,
+				341F94991D19784C0030362A /* SimpleCalls.swift in Sources */,
+				34A3B62B1D1AD42000523F14 /* Config.swift in Sources */,
+				34A3B6261D1AA6C100523F14 /* DownloadProgress.swift in Sources */,
+				3405F3841D1696A600AF29EC /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3405F3661D16928600AF29EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3405F3671D16928600AF29EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3405F36B1D16928600AF29EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3405F36C1D16928600AF29EC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -252,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NetworkingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mauroolivo.NetworkingSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NetworkingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mauroolivo.NetworkingSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +360,7 @@
 				3405F3731D16928600AF29EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
