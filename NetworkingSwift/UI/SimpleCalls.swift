@@ -130,14 +130,14 @@ class SimpleCalls: UIViewController {
         dataTask.resume()
 
         //----- UPLOAD TASK -----
-        let loginKisString = "http://kis.it/services/login"
+        let loginKisString = "http://urltologin.com"
         let loginKisUrl = NSURL(string: loginKisString)
         
         let request = NSMutableURLRequest.init(URL: loginKisUrl!)
         request.HTTPMethod = "POST"
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         let componenets = NSURLComponents()
-        componenets.query = "email=alessandro.pindinelli@alea.pro&password=kis2015"
+        componenets.query = "email=x@gmail.pro&password=kis"
         let body = componenets.percentEncodedQuery!
         let uploadTask = session.uploadTaskWithRequest(request, fromData: body.dataUsingEncoding(NSUTF8StringEncoding)!) {
             data, response, error in
@@ -155,7 +155,7 @@ class SimpleCalls: UIViewController {
 */
         // ----- DOWNLOAD TASK -----
 /*
-        let moString = "http://mauroolivo.com/wp-content/uploads/2015/07/logo-onenetlab-150.png"
+        let moString = "http://urltoimage.com/image.png"
         let moUrl = NSURL(string: moString)
         let downloadTask = session.downloadTaskWithURL(moUrl!) { (fileUrl, response, error) in
             response
